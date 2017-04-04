@@ -12,3 +12,5 @@ Given the restrictions above, plus the instabilities of HDX on the first of the 
 3) A Monthly query that looks up the first 14 some days of the month on day 1.
 
 The workflow is triggered by a windows task scheduler instance that combines an auntomated SFTP upload to remote secure HDX servers.
+
+You should know that this EHS is based on Elekta's Mosaiq (Rad-onc), and possibly tweaked with in-house customizations. While the process can be mirrored for other provider, adjustments would have to be made to obtain accurate lists.  That is, we cannot promise this will work out of the box, almost the opposite, it will not work, is a more reasonable expectation.
