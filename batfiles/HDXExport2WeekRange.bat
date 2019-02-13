@@ -1,1 +1,0 @@
-sqlcmd -U username -Ppassword -S databaseservername -i C:\HDX\HDXpressBatchDirectPayerEnrolleQueryTomorrowTo15offDateRange.sql -s";" -W  -h-1 -o \\AppLayerServerName\MOSAIQ_App\EXPORT\HDX\Upload\ELQ_UNMCCRange%date:~-4,4%_%date:~-10,2%_%date:~-7,2%.txt
